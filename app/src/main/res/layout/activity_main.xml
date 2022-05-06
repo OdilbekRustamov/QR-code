@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/qr_code"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"/>
+
+    <EditText
+        android:id="@+id/qr_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter here"
+        android:layout_marginHorizontal="12dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/generate_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/scaner_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="scaner"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/tv_set_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
